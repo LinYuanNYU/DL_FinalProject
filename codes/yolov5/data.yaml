@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 35
+names: ['African_hunting_dog', 'Appenzeller', 'Bernese_mountain_dog', 'Brabancon_griffon', 'Cardigan', 'Doberman', 'EntleBucher', 'Eskimo_dog', 'French_bulldog', 'Great_Dane', 'Great_Pyrenees', 'Greater_Swiss_Mountain_dog', 'Leonberg', 'Mexican_hairless', 'Newfoundland', 'Pembroke', 'Pomeranian', 'Saint_Bernard', 'Samoyed', 'Siberian_husky', 'Tibetan_mastiff', 'affenpinscher', 'basenji', 'boxer', 'bull_mastiff', 'chow', 'dhole', 'dingo', 'keeshond', 'malamute', 'miniature_pinscher', 'miniature_poodle', 'pug', 'standard_poodle', 'toy_poodle']
+
+roboflow:
+  workspace: project
+  project: dog-breeds-wvthe
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/dog-breeds-wvthe/dataset/2

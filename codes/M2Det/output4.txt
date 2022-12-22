@@ -1,0 +1,8 @@
+----------------------------------------------------------------------
+|                       M2Det Training Program                       |
+----------------------------------------------------------------------
+===> Constructing M2Det model
+Loading Pretrained
+Initializing weights for [tums, reduce, up_reduce, leach, loc, conf]...
+===> Loading Dataset...
+===> Training M2Det on VOC
